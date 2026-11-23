@@ -1,0 +1,317 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 19602,
+      "max": [
+        0.23248189687728882,
+        0.4888809025287628,
+        0.17263342440128326
+      ],
+      "min": [
+        -0.2324666529893875,
+        -0.4888504147529602,
+        -0.17368628084659576
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 235224,
+      "componentType": 5126,
+      "count": 19602,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 19602,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 19602,
+      "max": [
+        0.9976335763931274,
+        0.9979885816574097
+      ],
+      "min": [
+        0.002011384116485715,
+        0.002011396223679185
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 156816,
+      "componentType": 5126,
+      "count": 19602,
+      "max": [
+        0.9976335763931274,
+        0.9979885816574097
+      ],
+      "min": [
+        0.002011384116485715,
+        0.002011396223679185
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 313632,
+      "componentType": 5126,
+      "count": 19602,
+      "max": [
+        0.9976335763931274,
+        0.9979885816574097
+      ],
+      "min": [
+        0.002011384116485715,
+        0.002011396223679185
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 53334,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "polymount3d (https://sketchfab.com/polymount3d)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/vintage-brown-leather-chesterfield-sofa-9ca9efea7aa74cf687e0cc87dc9665bf",
+      "title": "Vintage Brown Leather Chesterfield Sofa"
+    },
+    "generator": "Sketchfab-0.23.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 213336,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 470448,
+      "byteOffset": 213336,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 470448,
+      "byteOffset": 683784,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 313632,
+      "byteOffset": 1154232,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1467864,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/tripo_node_0b8d1621-8f7b-40d0-b314-35e14dc81a1e_material_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/tripo_node_0b8d1621-8f7b-40d0-b314-35e14dc81a1e_material_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/tripo_node_0b8d1621-8f7b-40d0-b314-35e14dc81a1e_material_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "tripo_node_0b8d1621-8f7b-40d0-b314-35e14dc81a1e_material",
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "tripo_node_0b8d1621-8f7b-40d0-b314-35e14dc81a1e_tripo_node_0b8d1621-8f7b-40d0-b314-35e14dc81a1e_material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "b1d037b2134642f19828871eb13260b8.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.371139006309477e-08,
+        -0.999999999999999,
+        0.0,
+        0.0,
+        0.999999999999999,
+        -4.371139006309477e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "tripo_node_0b8d1621-8f7b-40d0-b314-35e14dc81a1e"
+    },
+    {
+      "mesh": 0,
+      "name": "tripo_node_0b8d1621-8f7b-40d0-b314-35e14dc81a1e_tripo_node_0b8d1621-8f7b-40d0-b314-35e14dc81a1e_material_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

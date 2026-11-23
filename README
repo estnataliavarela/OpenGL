@@ -1,0 +1,31 @@
+# Sillón 3D – Control Libre y Giro
+
+## Nombre del proyecto
+Sillón 3D con curva de Bézier, iluminación Phong y control de cámara.
+
+## Descripción
+Programa en C++ con OpenGL 3.3 que carga un modelo 3D en formato glTF, lo aplica a una textura y lo mueve sobre una curva de Bézier cúbica. El usuario puede desplazar la cámara con el teclado y girar la vista con el mouse.
+
+## Controles
+- **W / S**: avanzar / retroceder la cámara
+- **A / D**: moverse a la izquierda / derecha
+- **Mouse**: girar la cámara
+- **ESC**: cerrar el programa
+
+## Arquitectura del software
+- **Carga del modelo:** Assimp lee `scene.gltf` y genera una malla por cada parte del modelo (posición, normal y UV).
+- **Texturas:** stb_image carga `textures/sillon.jpeg`.
+- **Shaders:** un shader para el modelo con iluminación Phong (ambiente, difusa y especular) y un shader sencillo para dibujar la curva.
+- **Matrices:** modelo, vista y proyección. La matriz de modelo combina traslación sobre la curva y rotaciones.
+- **Curva de Bézier:** cuatro puntos de control. El sillón se ubica con `bezierPoint(t)` y se orienta con la tangente `bezierTangent(t)`.
+
+## Dependencias
+- GLAD (OpenGL 3.3 core)
+- GLFW
+- GLM
+- Assimp
+- stb_image
+
+## Cómo ejecutar
+1. Compila el proyecto en Visual Studio (x64, Debug).
+2. Ejecuta desde una carpeta que contenga `scene.gltf`, su `.bin`, y `textures/sillon.jpeg`.
